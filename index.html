@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="loading">
+          <span class="loader"></span>
+
+    </div>
+    <aside class="bg-body1 min-vh-100 position-fixed top-0 d-flex flex-row-reverse ">
+      <div
+        class="icon-content bg-white d-flex flex-column align-items-center justify-content-between  "
+      >
+        <img src="./imgs/logo.png" class="w-100" alt="" />
+        <div
+          class="icon-disapperaing d-flex justify-content-center align-items-center"
+        >
+          <i class="fa-solid fa-x close-icon d-none"></i>
+          <i class="fa-solid fa-bars toggle"></i>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="share-social d-flex flex-column align-items-center gap-2">
+          <i class="fa-solid fa-globe"></i>
+          <i class="fa-solid fa-share-nodes"></i>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+      <div class="sidebar-links   d-flex flex-column justify-content-between  ">
+        <ul class="list-unstyled text-white">
+          <li id="searchLink">
+          Search
+          </li>
+          <li id="category">
+           Categories
+          </li>
+          <li id="area">
+            Area
+          </li>
+          <li id="ingredients">
+            Ingredients
+          </li>
+          <li id="contact">
+            Contact Us
+          </li>
+        </ul>
+        <div class="social-nav-side">
+          <div class="icon-nav-side text-white d-flex gap-2 mb-2">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <p class="footer-nav-side text-white">
+            Copyright Â© <span class="copyright-date">2019</span> All Rights
+            Reserved.
+          </p>
+        </div>
+      </div>
+    </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <div class="main-content ">
+      <div class="row g-3 main-content-row">
+        <!-- <div class="col-3">
+          <div class="inner">
+            <div class="img-holder position-relative">
+              <img src="./imgs/tkxquw1628771028.jpg" class="w-100" alt="" />
+              <div class="overlay-part">
+                <h3
+                  class="h-100 d-flex align-items-center justify-content-start ps-2"
+                >
+                  Burek
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="target-meal text-white d-none">
+      <div class="row targetRow " >
+        <!-- <div class="col-4">
+          <div class="img-holder">
+            <img src="./imgs/tkxquw1628771028.jpg" class="w-100" alt="" />
+          </div>
+
+          <h3 class="fw-bold">Burek</h3>
+        </div>
+        <div class="col-8">
+          <h3 class="instruction">Instructions</h3>
+          <p class="inst-para mb-2">
+            Fry the finely chopped onions and minced meat in oil. Add the salt
+            and pepper. Grease a round baking tray and put a layer of pastry in
+            it. Cover with a thin layer of filling and cover this with another
+            layer of filo pastry which must be well coated in oil. Put another
+            layer of filling and cover with pastry. When you have five or six
+            layers, cover with filo pastry, bake at 200ºC/392ºF for half an hour
+            and cut in quarters and serve.
+          </p>
+          <p class="fw-bold fs-3 mb-1">
+            Area : <span class="fw-normal">Croatian</span>
+          </p>
+          <p class="fw-bold fs-3 mb-1">
+            Category : <span class="fw-normal">Side</span>
+          </p>
+          <p class="fs-3 mb-2">Recipes :</p>
+          <ul class="recipe-container list-unstyled d-flex gap-3">
+            <li>1 Packet Filo Pastry</li>
+            <li>150g Minced Beef</li>
+            <li>150g Onion</li>
+            <li>40g Oil</li>
+            <li>Dash Salt</li>
+            <li>Dash Pepper</li>
+          </ul>
+          <p class="fs-3 mb-2">Tags :</p>
+          <ul class="tag-container list-unstyled d-flex gap-3 mb-3">
+            <li>Streetfood</li>
+            <li>Onthego</li>
+          </ul>
+
+          <a href="www.facebook.com" class="btn btn-success">Source</a>
+          <a href="www.youtube.com" class="btn btn-danger">Youtube</a>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="search-meal d-none">
+      <div
+        class="search-inputs-container d-flex gap-3 w-75 justify-content-center align-items-center m-auto mb-5"
+      >
+        <div class="search-by-name w-50">
+          <input
+            type="text"
+            class="form-control w-100"
+            placeholder="Search By Name"
+            id="byName"
+          />
+        </div>
+
+        <div class="search-by-first w-50">
+          <input
+            type="text"
+            class="form-control w-100"
+            placeholder="Search By First Letter"
+            id="byFirst"
+            maxlength="1"
+          />
+        </div>
+      </div>
+
+      <div class="main-search-content d-none">
+        <div class="row g-3 searchRow">
+          <!-- <div class="col-3">
+            <div class="inner">
+              <div class="img-holder position-relative">
+                <img src="./imgs/tkxquw1628771028.jpg" class="w-100" alt="" />
+                <div class="overlay-part">
+                  <h3
+                    class="h-100 d-flex align-items-center justify-content-start ps-2"
+                  >
+                    Burek
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="category-page d-none">
+      <div class="row g-3 categoryRow">
+        <!-- <div class="col-3">
+          <div class="inner">
+            <div class="img-holder position-relative">
+              <img src="./imgs/beef.png" class="w-100" alt="" />
+              <div class="overlay-part py-2 text-center">
+                <h3 class="text-center">Burek</h3>
+                <p class="">
+                  Lorem ipsum dolor sit amoluptam voluptates quasi voluptatibus!
+                  Dolorum, ut!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="area-page d-none">
+        <div class="row areaRow g-3">
+            <!-- <div class="col-3">
+              <div class="inner text-white text-center">
+                <i class="fa-solid fa-house-laptop "></i>
+                <h3 class="fs-3">American</h3>
+              </div>
+            </div> -->
+          </div>
+    </div>
+    <div class="ingredients-page d-none">
+        <div class="row g-3 ingredientsRow">
+            <!-- <div class="col-3">
+              <div class="inner text-white text-center">
+                <i class="fa-solid fa-drumstick-bite"></i>
+                <h3 class="fs-3">Chicken</h3>
+                <p>The chicken is a type of domesticated fowl, a subspecies of the red junglefowl (Gallus gallus). It is one of</p>
+              </div>
+            </div> -->
+          </div>
+    </div>
+
+
+    <form class="contact-page d-none">
+        <div class="contact-container d-flex flex-column justify-content-center align-items-center gap-4  vh-100">
+    <div
+        class="contact-inputs-container d-flex gap-3 w-75 justify-content-center align-items-center mx-auto my-0"
+      >
+        <div class="contact-by-name w-50">
+          <input
+            type="text"
+            class="form-control w-100"
+            placeholder="Enter Your Name"
+            id="Name"
+          />
+          <label for="Name" class="error-msg d-none ">Special characters and numbers not allowed</label>
+        </div>
+
+        <div class="contact-by-first w-50">
+          <input
+            type="email"
+            class="form-control w-100"
+            placeholder="Enter Your Mail"
+            id="Mail"
+          />
+          <label for="Mail" class="error-msg d-none">Email not valid *exemple@yyy.zzz.</label>
+        </div>
+      </div>
+    <div
+        class="contact-inputs-container d-flex gap-3 w-75 justify-content-center align-items-center mx-auto my-0"
+      >
+        <div class="contact-by-name w-50">
+          <input
+            type="tel"
+            class="form-control w-100"
+            placeholder="Enter Your Phone"
+            id="Phone"
+          />
+          <label for="Phone" class="error-msg d-none">Enter valid Phone Number</label>
+        </div>
+
+        <div class="contact-by-first w-50">
+          <input
+            type="number"
+            class="form-control w-100"
+            placeholder="Enter Your Age"
+            id="Age"
+          />
+          <label for="Age" class="error-msg d-none">Enter valid age</label>
+        </div>
+      </div>
+    <div
+        class="contact-inputs-container d-flex gap-3 w-75 justify-content-center align-items-center mx-auto my-0"
+      >
+        <div class="contact-by-name w-50">
+          <input
+            type="password"
+            class="form-control w-100"
+            placeholder="Enter Your Password"
+            id="Password"
+          />
+          <label for="Password" class="error-msg d-none">Enter valid password *Minimum eight characters, at least one letter and one number:*</label>
+        </div>
+
+        <div class="contact-by-first w-50">
+          <input
+            type="password"
+            class="form-control w-100"
+            placeholder="Repassword"
+            id="Repassword"
+          />
+          <label for="Repassword" class="error-msg d-none">Enter valid repassword</label>
+        </div>
+      </div>
+      <button class="btn btn-outline-danger text-center  submit_button" disabled>Submit</button>
+        </div>
+       
+   
+    </form>
+
+
+
+<script src="./js/jquery-3.7.1.js"></script>
+    <script src="./js/index.js"></script>
+
+
+  </body>
+</html>
